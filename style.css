@@ -210,11 +210,14 @@ h2 {
 }
 
 .crew-member img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   border: 4px solid #b7ff6a;
+  display: block;
+  margin: 0 auto;
 }
 
 .crew-member h3 {
