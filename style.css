@@ -270,6 +270,32 @@ footer {
   text-align: center;
 }
 
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.shop,
+.crew,
+.story,
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-grid {
+  grid-template-columns: 1fr;
+  max-width: 850px;
+}
+
+.crew-grid {
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+}
+
+.crew-member {
+  max-width: 260px;
+  margin: 0 auto;
+}
 @media (max-width: 800px) {
   .nav {
     align-items: flex-start;
