@@ -57,7 +57,7 @@ a {
   padding: 120px 6vw 60px;
   background:
     linear-gradient(90deg, rgba(0,0,0,0.95), rgba(0,0,0,0.55), rgba(0,0,0,0.15)),
-    url("assets/dirt-sendy-canva.jpg") center/cover;
+url("heropic.jpg") center/cover;
 }
 
 .hero-content {
